@@ -36,4 +36,19 @@
       margin-top: $m24;
     }
   }
+
+
+  .container-content2 {
+    padding-left: $p16;
+    padding-right: $p16;
+    padding-bottom: $p64;
+
+    &-title {
+      margin-bottom: $m32;
+    }
+
+    &-list {
+      grid-template-columns: 1fr;
+    }
+  }
 }
