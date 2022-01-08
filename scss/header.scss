@@ -1,0 +1,44 @@
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: $p142;
+  padding-right: $p142;
+  height: 68px;
+  border-bottom: 1px solid $bordes;
+
+  &-logo {
+    color: $blanco;
+  }
+
+  &-collapse {
+    display: none;
+    cursor: pointer;
+    padding: $p4;
+
+    &:hover svg path {
+      stroke: $hover;
+    }
+  }
+
+  &-nav {
+    display: flex;
+    color: $blanco;
+    font-size: $boton_font_size;
+    line-height: $boton_line_height;
+    gap: 23px;
+
+    &-item {
+      padding-right: $p8;
+      padding-top: $p8;
+      padding-left: $p8;
+      padding-bottom: $p4;
+      cursor: pointer;
+      border-bottom: 2px solid $fondo;
+
+      &:hover {
+        border-bottom: 2px solid $hover;
+      }
+    }
+  }
+}

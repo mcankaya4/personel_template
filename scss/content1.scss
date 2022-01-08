@@ -1,0 +1,39 @@
+.container-content1 {
+  display: flex;
+  padding-left: $p142;
+  padding-right: $p142;
+  padding-top: $p64;
+  padding-bottom: $p128;
+
+  &-img {
+    width: 448px;
+    height: 547px;
+    border-radius: 8px;
+    margin-right: $p142;
+  }
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+      color: $blanco;
+      margin-bottom: $m24;
+    }
+
+    &-desc {
+      color: $blanco;
+      font-size: $body1_font_size;
+      line-height: $body1_line_height;
+      margin-bottom: $m24;
+    }
+
+    &-link {
+      text-decoration: none;
+      color: $acento;
+      &:hover {
+        color: $hover;
+      }
+    }
+  }
+}

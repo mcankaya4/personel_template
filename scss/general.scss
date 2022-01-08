@@ -1,0 +1,36 @@
+h1 {
+  font-size: 60px;
+  line-height: 71px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 57px;
+}
+
+h3 {
+  font-size: 34px;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+body {
+  font-family: poppinsregular;
+  background-color: $fondo;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

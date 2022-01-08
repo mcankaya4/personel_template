@@ -1,0 +1,210 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "poppinsregular";
+  src: url("../font/poppins-regular-webfont.eot");
+  src: url("../font/poppins-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/poppins-regular-webfont.woff2") format("woff2"), url("../font/poppins-regular-webfont.woff") format("woff"), url("../font/poppins-regular-webfont.svg#poppinsregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-size: 60px;
+  line-height: 71px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 57px;
+}
+
+h3 {
+  font-size: 34px;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+body {
+  font-family: poppinsregular;
+  background-color: #171718;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 142px;
+  padding-right: 142px;
+  height: 68px;
+  border-bottom: 1px solid #26292D;
+}
+.container-header-logo {
+  color: #FFFFFF;
+}
+.container-header-collapse {
+  display: none;
+  cursor: pointer;
+  padding: 4px;
+}
+.container-header-collapse:hover svg path {
+  stroke: #3C40AE;
+}
+.container-header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 16px;
+  gap: 23px;
+}
+.container-header-nav-item {
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  border-bottom: 2px solid #171718;
+}
+.container-header-nav-item:hover {
+  border-bottom: 2px solid #3C40AE;
+}
+
+.container-content1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 142px;
+  padding-right: 142px;
+  padding-top: 64px;
+  padding-bottom: 128px;
+}
+.container-content1-img {
+  width: 448px;
+  height: 547px;
+  border-radius: 8px;
+  margin-right: 142px;
+}
+.container-content1-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.container-content1-text-title {
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.container-content1-text-desc {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+.container-content1-text-link {
+  text-decoration: none;
+  color: #85BFD1;
+}
+.container-content1-text-link:hover {
+  color: #3C40AE;
+}
+
+@media only screen and (max-width: 575px) {
+  .container-header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .container-header-collapse {
+    display: block;
+  }
+  .container-header-nav {
+    display: none;
+  }
+
+  .container-content1 {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-content1-text {
+    margin-top: 24px;
+  }
+}
+.btn-active {
+  border-bottom: 2px solid #3C40AE;
+}
