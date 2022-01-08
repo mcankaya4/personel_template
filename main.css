@@ -224,6 +224,82 @@ body {
   line-height: 28px;
 }
 
+.container-footer {
+  padding-left: 142px;
+  padding-right: 142px;
+  padding-bottom: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.container-footer-top {
+  padding-top: 64px;
+  padding-bottom: 40px;
+  border-top: 1px solid #26292D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container-footer-top-title {
+  color: #FFFFFF;
+}
+.container-footer-top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 28px;
+}
+.container-footer-top-nav-item {
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+.container-footer-top-nav-item:hover {
+  color: #3C40AE;
+}
+.container-footer-top-nav-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+  cursor: pointer;
+}
+.container-footer-top-nav-icons-item svg {
+  width: 30px;
+  height: 30px;
+}
+.container-footer-top-nav-icons-item:hover svg path {
+  fill: #85BFD1;
+}
+.container-footer-bottom {
+  border-top: 1px solid #26292D;
+  padding-top: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
 @media only screen and (max-width: 575px) {
   .container-header {
     padding-left: 16px;
@@ -261,7 +337,32 @@ body {
   .container-content2-list {
     grid-template-columns: 1fr;
   }
+
+  .container-footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .container-footer-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 32px;
+  }
+  .container-footer-top-title {
+    margin-bottom: 32px;
+  }
+  .container-footer-top-nav-item {
+    text-align: center;
+  }
 }
 .btn-active {
   border-bottom: 2px solid #3C40AE;
+}
+
+.acento {
+  color: #85BFD1;
 }

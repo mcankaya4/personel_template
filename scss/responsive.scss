@@ -51,4 +51,25 @@
       grid-template-columns: 1fr;
     }
   }
+
+  .container-footer {
+    padding-left: $p16;
+    padding-right: $p16;
+
+    &-top {
+      flex-direction: column;
+      align-items: center;
+      padding-top: $p32;
+
+      &-title {
+        margin-bottom: $m32;
+      }
+
+      &-nav {
+        &-item {
+          text-align: center;
+        }
+      }
+    }
+  }
 }
