@@ -13,7 +13,7 @@
 <div class="container">
 
     <header class="container-header">
-        <h4 class="container-header-logo">Miguel UI</h4>
+        <h4 class="container-header-logo">Kod Defteri</h4>
         <div class="container-header-collapse">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4 6H20M4 12H20M13 18H20" stroke="white" stroke-width="2" stroke-linecap="round"
@@ -21,134 +21,184 @@
             </svg>
         </div>
         <ul class="container-header-nav">
-            <li class="container-header-nav-item">Inicio</li>
-            <li class="container-header-nav-item btn-active">Acerca de mi</li>
-            <li class="container-header-nav-item">Proyestos</li>
-            <li class="container-header-nav-item">Contactame</li>
+            <li class="container-header-nav-item btn-active">Tüm Postlar</li>
+            <li class="container-header-nav-item">Hakkımda</li>
         </ul>
     </header>
 
-    <main class="container-content1">
-        <img class="container-content1-img" src="img/personal.png" alt="personel">
-        <div class="container-content1-text">
-            <h1 class="container-content1-text-title">Miguel Ruz</h1>
-            <p class="container-content1-text-desc">
-                Soy Diseñador UI, actualmente vivo en Turbaco-Bolivar, un pueblo a las afueras de Cartagena (Colombia).
-                <br>
-                Me agrada la idea de trabajar en equipo, pienso que es una manera de conectar con nuevas habilidades y
-                de brindar mi conocimiento al equipo con el fin de mejorar la productividad en el desarrollo de algun
-                producto digital. Me gusta descubrir cosas nuevas a diario y ser un activo valioso en cualquier equipo
-                en el que me desarrolle, por lo que estoy aprendiendo constantemente e investigando acerca de las nuevas
-                tendencias.
-                <br>
-                Trato de buscar todo el Feedback posible en los proyectos, con el fin de mejorar y poder hacer diseños
-                que no solo sean atractivos esteticamente sino que sean accesibles y funcionales por lo que me gusta
-                trabajar muy de la mano con los stakeholders.
-                Hablemos!
-            </p>
-            <a class="container-content1-text-link" href="">miguelruz1126@gmail.com</a>
+
+    <main class="container-addpost">
+        <h2 class="container-addpost-title">Yeni Post Ekle</h2>
+        <div class="container-addpost-form">
+            <label for="title">Post Başlığı</label>
+            <input class="container-addpost-form-input" id="title" type="text">
+        </div>
+        <div class="container-addpost-form">
+            <label for="category">Post Kategorisi</label>
+            <select class="container-addpost-form-select" id="category">
+                <option>Kategori Seç</option>
+                <option>VueJS</option>
+                <option>Javascript</option>
+                <option>Css & Scss</option>
+                <option>Html</option>
+            </select>
+        </div>
+        <pre class="pre"><div class="pre-title">Örnek Post İçeriği Hazırlama Kodları</div><code>   &lt;h2 class="container-postdetail-title"&gt;Vuex ile state managment&lt;/h2&gt;
+
+    &lt;p class="container-postdetail-p"&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
+
+    &lt;a class="link" href="https://github.com"&gt;Tıklayınız&lt;/a&gt;
+
+    &lt;h5 class="primary"&gt;Örnek kullanım&lt;/h5>
+
+    &lt;p class="container-postdetail-p"&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
+
+    &lt;pre class="pre"&gt;&lt;div class="pre-title"&gt;app.css&lt;/div&gt;&lt;code&gt;    .card {
+        color: red;
+        background-color: green;
+        font-size: 45px;
+    }
+    &lt;/code>&lt;/pre&gt;
+
+    &lt;pre class="pre"&gt;&lt;div class="pre-title"&gt;#app.html&lt;/div&gt;&lt;code&gt;    &lt;template&gt;
+        &lt;p&gt;Html tagları açmak için '&-l-t-;' '&-g-t-;' çizgileri çıkartıp kullan&lt;/p&gt;
+    &lt;/template&gt;
+    &lt;/code&gt;&lt;/pre&gt;
+        </code></pre>
+        <div class="container-addpost-form">
+            <label for="desc">Post İçeriği</label>
+            <textarea class="container-addpost-form-textarea" id="desc"></textarea>
+        </div>
+        <div class="container-addpost-form">
+            <button class="container-addpost-form-button">Ön İzleme</button>
         </div>
     </main>
 
-    <main class="container-content2">
-        <h3 class="container-content2-title">Mis habilidades</h3>
-        <div class="container-content2-list">
-            <div class="container-content2-list-item">
-                <div class="container-content2-list-item-icon">
-                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20.8334 41.6666L29.1667 8.33331M37.5001 16.6666L45.8334 25L37.5001 33.3333M12.5001 33.3333L4.16675 25L12.5001 16.6666"
-                              stroke="#A0A0A1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <h3 class="container-content2-list-item-title">HTML & CSS</h3>
-                <p class="container-content2-list-item-desc">
-                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama
-                    mas claro a la hora de tomar mis decisiones de diseño
-                </p>
-            </div>
-            <div class="container-content2-list-item">
-                <div class="container-content2-list-item-icon">
-                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20.8334 41.6666L29.1667 8.33331M37.5001 16.6666L45.8334 25L37.5001 33.3333M12.5001 33.3333L4.16675 25L12.5001 16.6666"
-                              stroke="#A0A0A1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <h3 class="container-content2-list-item-title">HTML & CSS</h3>
-                <p class="container-content2-list-item-desc">
-                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama
-                    mas claro a la hora de tomar mis decisiones de diseño
-                </p>
-            </div>
-            <div class="container-content2-list-item">
-                <div class="container-content2-list-item-icon">
-                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20.8334 41.6666L29.1667 8.33331M37.5001 16.6666L45.8334 25L37.5001 33.3333M12.5001 33.3333L4.16675 25L12.5001 16.6666"
-                              stroke="#A0A0A1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <h3 class="container-content2-list-item-title">HTML & CSS</h3>
-                <p class="container-content2-list-item-desc">
-                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama
-                    mas claro a la hora de tomar mis decisiones de diseño
-                </p>
-            </div>
-            <div class="container-content2-list-item">
-                <div class="container-content2-list-item-icon">
-                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20.8334 41.6666L29.1667 8.33331M37.5001 16.6666L45.8334 25L37.5001 33.3333M12.5001 33.3333L4.16675 25L12.5001 16.6666"
-                              stroke="#A0A0A1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <h3 class="container-content2-list-item-title">HTML & CSS</h3>
-                <p class="container-content2-list-item-desc">
-                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama
-                    mas claro a la hora de tomar mis decisiones de diseño
-                </p>
-            </div>
-            <div class="container-content2-list-item">
-                <div class="container-content2-list-item-icon">
-                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20.8334 41.6666L29.1667 8.33331M37.5001 16.6666L45.8334 25L37.5001 33.3333M12.5001 33.3333L4.16675 25L12.5001 16.6666"
-                              stroke="#A0A0A1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <h3 class="container-content2-list-item-title">HTML & CSS</h3>
-                <p class="container-content2-list-item-desc">
-                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama
-                    mas claro a la hora de tomar mis decisiones de diseño
-                </p>
-            </div>
-            <div class="container-content2-list-item">
-                <div class="container-content2-list-item-icon">
-                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20.8334 41.6666L29.1667 8.33331M37.5001 16.6666L45.8334 25L37.5001 33.3333M12.5001 33.3333L4.16675 25L12.5001 16.6666"
-                              stroke="#A0A0A1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <h3 class="container-content2-list-item-title">HTML & CSS</h3>
-                <p class="container-content2-list-item-desc">
-                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama
-                    mas claro a la hora de tomar mis decisiones de diseño
-                </p>
-            </div>
-        </div>
-    </main>
+<!--    <main class="container-search">-->
+<!--        <h3 class="container-search-title">Site içi arama yapabilirsin.</h3>-->
+<!--        <div class="container-search-form">-->
+<!--            <input class="container-search-form-input" type="text" placeholder="Başlık veya içerik ara">-->
+<!--            <button class="container-search-form-button">Ara</button>-->
+<!--        </div>-->
+<!--        <ul class="container-search-categories">-->
+<!--            <li class="container-search-categories-item">VueJS</li>-->
+<!--            <li class="container-search-categories-item">Javascript</li>-->
+<!--            <li class="container-search-categories-item">Css & Scss</li>-->
+<!--            <li class="container-search-categories-item">Html</li>-->
+<!--        </ul>-->
+<!--    </main>-->
+
+    <!--    <main class="container-content1">-->
+    <!--        <img class="container-content1-img" src="img/personal.png" alt="personel">-->
+    <!--        <div class="container-content1-text">-->
+    <!--            <h1 class="container-content1-text-title">Miguel Ruz</h1>-->
+    <!--            <p class="container-content1-text-desc">-->
+    <!--                Soy Diseñador UI, actualmente vivo en Turbaco-Bolivar, un pueblo a las afueras de Cartagena (Colombia).-->
+    <!--                <br>-->
+    <!--                Me agrada la idea de trabajar en equipo, pienso que es una manera de conectar con nuevas habilidades y-->
+    <!--                de brindar mi conocimiento al equipo con el fin de mejorar la productividad en el desarrollo de algun-->
+    <!--                producto digital. Me gusta descubrir cosas nuevas a diario y ser un activo valioso en cualquier equipo-->
+    <!--                en el que me desarrolle, por lo que estoy aprendiendo constantemente e investigando acerca de las nuevas-->
+    <!--                tendencias.-->
+    <!--                <br>-->
+    <!--                Trato de buscar tod el Feedback posible en los proyectos, con el fin de mejorar y poder hacer diseños-->
+    <!--                que no solo sean atractivos esteticamente sino que sean accesibles y funcionales por lo que me gusta-->
+    <!--                trabajar muy de la mano con los stakeholders.-->
+    <!--                Hablemos!-->
+    <!--            </p>-->
+    <!--            <a class="container-content1-text-link" href="">miguelruz1126@gmail.com</a>-->
+    <!--        </div>-->
+    <!--    </main>-->
+
+
+
+
+<!--    <main class="container-postdetail">-->
+<!--        <h2 class="container-postdetail-title">Vuex ile state managment</h2>-->
+<!--        <p class="container-postdetail-p">Lorem ipsum dolor sit amet</p>-->
+<!--        <a class="link" href="https://github.com">Tıklayınız</a>-->
+<!--        <h5 class="primary">Örnek kullanım</h5>-->
+<!--        <p class="container-postdetail-p">Lorem ipsum dolor sit amet</p>-->
+<!--        <pre class="pre"><div class="pre-title">app.css</div><code>    .card {-->
+<!--        color: red;-->
+<!--        background-color: green;-->
+<!--        font-size: 45px;-->
+<!--    }-->
+<!--</code></pre>-->
+<!--        <pre class="pre"><div class="pre-title">#app.html</div><code>    &lt;template&gt;-->
+<!--        &lt;p&gt;Html tagları açmak için '&-l-t-;' çizgileri çıkartıp kullan&lt;/p&gt;-->
+<!--    &lt;/template&gt;-->
+<!--</code></pre>-->
+<!--    </main>-->
+
+
+
+
+
+<!--    <main class="container-content2">-->
+<!--        <h3 class="container-content2-title">Son Postlar</h3>-->
+<!--        <div class="container-content2-list">-->
+<!--            <div class="container-content2-list-item">-->
+<!--                <h3 class="container-content2-list-item-title">VueJS</h3>-->
+<!--                <p class="container-content2-list-item-desc">-->
+<!--                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama-->
+<!--                    mas claro a la hora de tomar mis decisiones de diseño-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="container-content2-list-item">-->
+<!--                <h3 class="container-content2-list-item-title">Javascript</h3>-->
+<!--                <p class="container-content2-list-item-desc">-->
+<!--                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama-->
+<!--                    mas claro a la hora de tomar mis decisiones de diseño-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="container-content2-list-item">-->
+<!--                <h3 class="container-content2-list-item-title">Css & Scss</h3>-->
+<!--                <p class="container-content2-list-item-desc">-->
+<!--                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama-->
+<!--                    mas claro a la hora de tomar mis decisiones de diseño-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="container-content2-list-item">-->
+<!--                <h3 class="container-content2-list-item-title">HTML & CSS</h3>-->
+<!--                <p class="container-content2-list-item-desc">-->
+<!--                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama-->
+<!--                    mas claro a la hora de tomar mis decisiones de diseño-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="container-content2-list-item">-->
+<!--                <h3 class="container-content2-list-item-title">HTML & CSS</h3>-->
+<!--                <p class="container-content2-list-item-desc">-->
+<!--                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama-->
+<!--                    mas claro a la hora de tomar mis decisiones de diseño-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="container-content2-list-item">-->
+<!--                <h3 class="container-content2-list-item-title">HTML & CSS</h3>-->
+<!--                <p class="container-content2-list-item-desc">-->
+<!--                    Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama-->
+<!--                    mas claro a la hora de tomar mis decisiones de diseño-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </main>-->
 
     <footer class="container-footer">
         <div class="container-footer-top">
-            <h4 class="container-footer-top-title">Miguel UI</h4>
+            <h4 class="container-footer-top-title">Kod Defterim</h4>
             <ul class="container-footer-top-nav">
-                <li class="container-footer-top-nav-item acento">Inicio</li>
-                <li class="container-footer-top-nav-item">Acerca de mi</li>
-                <li class="container-footer-top-nav-item">Proyectos</li>
+                <li class="container-footer-top-nav-item acento">Kullanılan Teknolojiler</li>
+                <li class="container-footer-top-nav-item">Vue@Cli</li>
+                <li class="container-footer-top-nav-item">Firebase</li>
+                <li class="container-footer-top-nav-item">Gulp</li>
             </ul>
             <ul class="container-footer-top-nav">
-                <li class="container-footer-top-nav-item acento">Contactame</li>
-                <li class="container-footer-top-nav-item">Correo</li>
+                <li class="container-footer-top-nav-item acento">İletişim</li>
+                <li class="container-footer-top-nav-item">Github</li>
                 <li class="container-footer-top-nav-item">LinkedIn</li>
             </ul>
             <ul class="container-footer-top-nav">
-                <li class="container-footer-top-nav-item acento">Social</li>
+                <li class="container-footer-top-nav-item acento">Sosyal Meyda</li>
                 <li class="container-footer-top-nav-icons">
                     <div class="container-footer-top-nav-icons-item">
                         <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -177,9 +227,17 @@
             </ul>
         </div>
         <div class="container-footer-bottom">
-            © 2021 Miguel Ruz
+            © mcankaya4 | vue#app
         </div>
     </footer>
 </div>
+
+<script src="js/highlight/highlight.min.js"></script>
+<script src="js/highlight/highlightjs-line-numbers.min.js"></script>
+<script>
+    hljs.highlightAll();
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
 </body>
 </html>

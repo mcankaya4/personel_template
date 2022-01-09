@@ -5,3 +5,34 @@
 .acento {
   color: $acento;
 }
+
+.primary {
+  color: $primario;
+}
+
+.pre {
+  line-height: $body2_line_height;
+  font-size: $body1_font_size;
+}
+
+.pre-title {
+  padding-left: $p16;
+  font-size: $body2_font_size;
+  background-color: $gris;
+  font-weight: bold;
+  color: $fondo;
+  padding-top: $p2;
+  padding-bottom: $p2;
+}
+
+.link {
+  text-decoration: none;
+  color: $acento;
+  &:hover {
+    color: $hover;
+  }
+}
+
+label {
+  cursor: pointer;
+}

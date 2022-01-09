@@ -25,6 +25,28 @@
   }
 
 
+  .container-search {
+    padding-left: $p16;
+    padding-right: $p16;
+
+
+    &-title {
+      font-size: 28px;
+    }
+
+    &-form {
+
+      &-input {
+        height: 40px;
+      }
+    }
+  }
+
+  .container-postdetail {
+    padding-left: $p16;
+    padding-right: $p16;
+  }
+
   .container-content1 {
     padding-left: $p16;
     padding-right: $p16;
@@ -42,6 +64,7 @@
     padding-left: $p16;
     padding-right: $p16;
     padding-bottom: $p64;
+    padding-top: $p32;
 
     &-title {
       margin-bottom: $m32;

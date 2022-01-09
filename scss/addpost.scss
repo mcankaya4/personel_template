@@ -1,0 +1,58 @@
+.container-addpost {
+  padding-left: $p142;
+  padding-right: $p142;
+  padding-bottom: $p32;
+  padding-top: $p32;
+  display: flex;
+  flex-direction: column;
+  gap: $p24;
+
+  &-title {
+    color: $blanco;
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+
+    & label {
+      color: $blanco;
+      font-size: $body1_font_size;
+      line-height: $body1_line_height;
+    }
+
+    &-input, &-select, &-button{
+      height: 50px;
+      color: $blanco;
+      background-color: $fondo;
+      outline: none;
+      border: 1px solid $gris;
+      border-radius: 5px;
+      padding-left: $p16;
+      font-size: $body1_font_size;
+      line-height: $body1_line_height;
+    }
+
+    &-textarea {
+      font-size: $body1_font_size;
+      line-height: $body1_line_height;
+      padding-left: $p16;
+      padding-right: $p16;
+      padding-top: $p8;
+      padding-bottom: $p8;
+      outline: none;
+      border: 1px solid $gris;
+      color: $blanco;
+      background-color: $fondo;
+      height: 700px;
+      resize: vertical;
+    }
+    
+    &-button {
+      cursor: pointer;
+      &:hover {
+        background-color: $hover;
+      }
+    }
+  }
+}

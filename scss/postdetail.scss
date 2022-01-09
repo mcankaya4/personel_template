@@ -1,0 +1,20 @@
+.container-postdetail {
+  padding-left: $p142;
+  padding-right: $p142;
+  padding-bottom: $p32;
+  padding-top: $p32;
+  display: flex;
+  flex-direction: column;
+  gap : $p24;
+
+  &-title {
+    color: $blanco;
+  }
+
+  &-p {
+    color: $blanco;
+    font-size: $body1_font_size;
+    line-height: $body1_line_height;
+  }
+
+}

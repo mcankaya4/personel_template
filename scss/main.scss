@@ -2,11 +2,15 @@
 @import "font";
 @import "variables";
 @import "general";
+@import "js/highlight/styles/github-dark.min.css";
 
 
 @import "header";
+@import "search";
 @import "content1";
 @import "content2";
+@import "postdetail";
+@import "addpost";
 @import "footer";
 
 

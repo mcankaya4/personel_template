@@ -1,12 +1,12 @@
 .container-content2 {
   padding-left: $p142;
   padding-right: $p142;
-  padding-bottom: $p128;
+  padding-bottom: $p32;
+  padding-top: $p32;
 
   &-title {
-    text-align: center;
     color: $blanco;
-    margin-bottom: $m64;
+    margin-bottom: $m32;
   }
 
   &-list {
@@ -22,9 +22,10 @@
       background-color: $rellenos;
       border-radius: 8px;
       cursor: pointer;
+      border: 1px solid $rellenos;
 
-      &:hover &-title {
-        color: $hover;
+      &:hover {
+        border: 1px solid $blanco;
       }
 
       &-icon {
