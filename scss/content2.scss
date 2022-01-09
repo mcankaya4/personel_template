@@ -13,6 +13,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
+    margin-bottom: $m32;
 
     &-item {
       display: flex;
@@ -44,6 +45,49 @@
         color: $blanco;
         font-size: $body1_font_size;
         line-height: $body1_line_height;
+      }
+    }
+  }
+
+  &-thanmore {
+    text-align: center;
+
+    &-button {
+      padding-left: $p24;
+      padding-right: $p24;
+      padding-bottom: $p16;
+      padding-top: $p16;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid $gris;
+      background-color: $fondo;
+      color: $blanco;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $hover;
+      }
+    }
+  }
+
+  &-page {
+
+    &-navigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+
+      &-item {
+        padding: $p16 $p24;
+        border: 1px solid $gris;
+        border-radius: 5px;
+        color: $blanco;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $hover;
+        }
       }
     }
   }

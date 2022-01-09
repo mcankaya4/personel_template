@@ -36,3 +36,23 @@
 label {
   cursor: pointer;
 }
+
+.page-none {
+  border: none;
+  cursor: default;
+  padding-left: $p4;
+  padding-right: $p4;
+
+  &:hover {
+    background-color: $fondo;
+  }
+}
+
+.page-active {
+  background-color: $acento;
+  cursor: default;
+  
+  &:hover {
+    background-color: $acento;
+  }
+}

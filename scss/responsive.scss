@@ -1,16 +1,16 @@
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width: 1200px) {
 }
 
-@media only screen and (min-width:992px) and (max-width:1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
-@media only screen and (min-width:768px) and (max-width:991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
-@media only screen and (min-width:576px) and (max-width:767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
-@media only screen and (max-width:575px) {
+@media only screen and (max-width: 575px) {
   .container-header {
     padding-left: $p16;
     padding-right: $p16;
@@ -45,13 +45,15 @@
   .container-postdetail {
     padding-left: $p16;
     padding-right: $p16;
+    padding-top: $p32;
+    padding-bottom: $p32;
   }
 
   .container-content1 {
     padding-left: $p16;
     padding-right: $p16;
     padding-top: $p32;
-    padding-bottom: $p64;
+    padding-bottom: $p32;
     flex-direction: column;
 
     &-text {
@@ -60,10 +62,18 @@
   }
 
 
+  .container-addpost {
+    padding-left: $p16;
+    padding-right: $p16;
+    padding-bottom: $p32;
+    padding-top: $p32;
+  }
+
+
   .container-content2 {
     padding-left: $p16;
     padding-right: $p16;
-    padding-bottom: $p64;
+    padding-bottom: $p32;
     padding-top: $p32;
 
     &-title {
@@ -72,6 +82,10 @@
 
     &-list {
       grid-template-columns: 1fr;
+    }
+
+    &-page-navigation-item {
+      padding: $p8 $p16;
     }
   }
 
